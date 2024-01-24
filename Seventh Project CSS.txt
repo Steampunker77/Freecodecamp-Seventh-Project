@@ -1,0 +1,44 @@
+1 * {
+2  box-sizing: border-box;
+3 }
+4
+5 body {
+6  margin: 0;
+7  font-family: sans-serif;
+8  background: #f5f6f7;
+9 }
+10
+11 .header {
+12  text-align: center;
+13  text-transform: uppercase;
+14  padding: 32px;
+15  background-color: #0a0a23;
+16  color: #fff;
+17  border-bottom: 4px solid #fdb347;
+18 }
+19
+20 .gallery {
+21  display: flex;
+22  flex-direction: row;
+23  flex-wrap: wrap;
+24  justify-content: center;
+25  align-items: center;
+26  gap: 16px;
+27  max-width: 1400px;
+28  margin: 0 auto;
+29  padding: 20px 10px;
+30 }
+31
+32 .gallery img {
+33  width: 100%;
+34  max-width: 350px;
+35  height: 300px;
+36  object-fit: cover;
+37  border-radius: 10px;
+38 }
+39
+40 .gallery::after {
+41  content: "";
+42  width: 350px;
+43 }
+44

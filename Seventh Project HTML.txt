@@ -1,0 +1,25 @@
+1 <!DOCTYPE html>
+2 <html lang="en">
+3  <head>
+4    <meta charset="utf-8">
+5    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6    <title>Photo Gallery</title>
+7    <link rel="stylesheet" href="./styles.css">
+8  </head>
+9  <body>
+10    <header class="header">
+11      <h1>css flexbox photo gallery</h1>
+12    </header>
+13    <div class="gallery">
+14      <img alt="Sleeping cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
+15      <img alt="Cat playing" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
+16      <img alt="Serious cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
+17      <img alt="Cat in bed" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
+18      <img alt="Two tabbies" alt="Siamese cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
+19      <img alt="Nondescript" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
+20      <img alt="Cat playing" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
+21      <img alt="Orange cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
+22      <img alt="Black and white cats" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
+23    </div>
+24  </body>
+25 </html>
